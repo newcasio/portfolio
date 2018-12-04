@@ -12,40 +12,48 @@
 </head>
 
 
-<body background = "images/backgroundImage.jpg">
+<body>
+  <div id="bg">
   <nav>
     <ul class="nav">
       <li>
         <button id="aboutMeButton">About me</button>
       </li>
-      <li>
-        <button id="myProjects">Projects</button>
-      </li>
-      <!-- <li class="dropdown">
-        <button href="javascript:void(0)" class="dropbtn">Dropdown</button>
+      <li class="dropdown">
+        <button id="myProjects" class="dropbtn" href="javascript:void(0)">Projects</button>
         <div class="dropdown-content">
-          <a class="drop" id="TTT">Tic-Tac-Toe</a>
-          <a class="drop" id="Conflict">Conflicts Around the World</a>
-          <a class="drop" id="Trippo">Trippo</a>
-          <a class="drop" id="Booker">Booker</a>
-        </div> -->
-
+          <a id="ttt">Tic-tac-toe</a>
+          <a id="conflicts">Conflicts Around the World</a>
+          <a id="trippo">Trippo</a>
+          <a id="booker">Booker</a>
+        </div>
+      </li>
       <li>
         <button id="contactButton">Contact</button>
+      </li>
+      <li>
+        <button>
+          <a id="resumeButton" href="images/BradleyDongResume.pdf" download target="_blank">
+              Resume
+          </a>
+        </button>
       </li>
     </ul>
   </nav>
   <div>
-    <h1 id="name">Bradley Dong</h1>
+  <div id="name">
+    <h1>BRADLEY DONG</h1>
+    <h2>Junior Web Developer</h2>
+  </div>
 
 
 <!-- contact details -->
 <div id="contactDetails">
   <div id="contactDetailsContents">
-    <p><b>phone:</b> 0432 805 427</p>
-    <p><b>email:</b> braddong@hotmail.com</p>
-    <p><b>linkedIn:</b> <a href="https://www.linkedin.com/in/bradleydong">https://www.linkedin.com/in/bradleydong</a></p>
-    <p><b>github:</b> <a href="https://github.com/newcasio">https://github.com/newcasio</a></p>
+    <p>phone: 0432 805 427</p>
+    <p>email: braddong@hotmail.com</p>
+    <a class="contact" href="https://www.linkedin.com/in/bradleydong">LinkedIn</a>
+    <a class="contact" href="https://github.com/newcasio">GitHub</a>
   </div>
 </div>
 
@@ -54,7 +62,7 @@
 <div id="aboutMeContent">
   <img id="profilePic" src="images/profilePic.jpg" />
   <p id="aboutMeText">
-    Hey, my name is Bradley and I am a recent graduate from General Assembly's Web Development Immersive.  My most recent role working as a service technician has developed my time management and communication skills.
+    Hey, my name is Bradley and I am a recent graduate from General Assembly's Web Development Immersive.  <br />I am looking for a team of easy going, like minded people, where I can learn and develop my skills.  <br />I believe my most recent role working as a service technician has developed my time management and communication skills.  &nbsp&nbspI also bring a diverse work history, having experienced working in many different environments.
   </p>
 </div>
 
@@ -149,7 +157,7 @@
   </p>
     <a href="#">
         <img class="thumb" src="images/Projects/Booker1 copy.png">
-        <img class="big" src="images/Projects/Book1.png">
+        <img class="big" src="images/Projects/Booker1.png">
     </a>
 
     <a href="#">
@@ -161,6 +169,8 @@
         <img class="thumb" src="images/Projects/Booker3 copy.png">
         <img class="big" src="images/Projects/Booker3.png">
     </a>
+    <a href="https://booker-react.herokuapp.com/#/" target="_blank">See it for real</a>
+    <a href="https://github.com/newcasio/project3react" target="_blank">See my code on GitHub</a>
 
 </div>
 
@@ -174,5 +184,6 @@
   </div>
   <script src="js/jquery.js"></script>
   <script src="js/main.js"></script>
+</div>
 </body>
 </html>

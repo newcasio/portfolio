@@ -1,5 +1,8 @@
 /* main name */
 @import url('https://fonts.googleapis.com/css?family=Assistant');
+@import url('https://fonts.googleapis.com/css?family=Hind');
+
+
 
 html {
   background: url("/Users/daniththai/wdi/portfolio/images/backgroundImage.jpg") no-repeat center center fixed;
@@ -9,17 +12,45 @@ html {
   background-size: cover;
 }
 
+body{
+  font-family: 'Hind', sans-serif;
+}
+
 #bgCredit{
   position: fixed;
   bottom: 10px;
   right:10px;
 }
 
-#name{
-  font-size: 90px;
-  font-family: 'Assistant', sans-serif;
+nav{
+  margin-right: 40px;
+  margin-top: 20px;
 }
 
+button{
+  padding: 10px;
+  border-radius: 20%;
+}
+
+#resumeButton{
+  margin: 0;
+  text-decoration: none;
+}
+
+
+#name{
+  font-family: 'Assistant', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 90px;
+}
+
+h2{
+  font-size: 45px;
+}
 
 /* nav */
 .nav{
@@ -29,42 +60,56 @@ html {
 
 li{
   display: inline-block;
-  border: 1px solid green;
+}
+
+nav:hover{
+  cursor: pointer;
 }
 
 #contactDetails{
-  display: grid;
-  grid-template-columns: 20% 60% 20%;
-  border: 1px dashed green;
+  text-align: center;
 }
 
 #contactDetailsContents{
-  grid-column-start: 2;
-  text-align: center;
+  margin: 30px 10px;
+  padding: 40px;
+  display: inline-block;
+
+  max-width: 50%;
+  text-align: left;
+  line-height: 200%;
+  background-color: #c1c1c1;
 }
+
 
 
 /* about me */
 #aboutMeContent{
   display: grid;
   grid-template-columns: 35% 65%;
-  border: 1px dashed green;
 }
 
 #profilePic{
   width: 100%;
   height:auto;
   grid-column: 1/2;
-  border-radius: 50%
+  border-radius: 50%;
+  padding-left: 50px;
 }
 
 #aboutMeText{
   grid-column: 2;
+  padding: 50px 200px;
+  border: 3px black solid;
 }
 
 
 /* myProjects */
 @import "compass/css3";
+
+#proj1, #proj2, #proj3, #proj4{
+  margin-top: 40px;
+}
 
 /*GENERAL*/
 
@@ -123,7 +168,8 @@ a:hover .big {
 
 /* dropdown */
 
-/* li.dropdown {
+
+li.dropdown {
     display: inline-block;
 }
 
@@ -131,26 +177,23 @@ a:hover .big {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 130px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     right:0;
 }
 
-.dropdown-content a.drop {
+.dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 8px 12px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 
-.dropdown-content a.drop:hover {
-  background-color: #f1f1f1;
-  cursor: pointer;
-
-}
+.dropdown-content a:hover {background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
     display: block;
-} */
+    cursor: pointer;
+}
