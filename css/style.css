@@ -6,7 +6,7 @@
 
 html {
   /*background: url("/Users/daniththai/wdi/portfolio/images/backgroundImage.jpg") no-repeat center center fixed;*/
-  background: url("https://github.com/newcasio/portfolio/images/backgroundImage.jpg") no-repeat center center fixed;
+  background: url("../images/backgroundImage.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
