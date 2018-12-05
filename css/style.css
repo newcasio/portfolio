@@ -46,7 +46,7 @@ button{
 }
 
 h1{
-  font-size: 8vh;
+  font-size: 9vh;
 }
 
 h2{
@@ -105,6 +105,27 @@ button:hover{
   background-color: #c1c1c1;
 }
 
+/* skills */
+
+h3{
+
+}
+#skillsContent{
+  padding: 2vh 3vw;
+  background-color: #c1c1c1;
+  margin: 0 2vw;
+}
+
+table{
+  margin-left: 2vw;
+}
+
+td{
+  width: 16vw;
+}
+
+
+
 
 /* myProjects */
 @import "compass/css3";
@@ -149,6 +170,7 @@ body {
 a {
   float: left;
   margin: 20px;
+  color: inherit;
 }
 
 a :hover .thumb {
