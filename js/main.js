@@ -3,6 +3,7 @@ $(document).ready(function(){
   $('#contactDetails').hide();
   $('#contactButton').on('click', function(){
     $('#aboutMeContent').hide(600);
+    $('#skillsContent').hide(600);
     $('#proj1').hide(600);
     $('#proj2').hide(600);
     $('#proj3').hide(600);
@@ -14,11 +15,23 @@ $(document).ready(function(){
   $('#aboutMeContent').hide();
   $('#aboutMeButton').on('click', function(){
     $('#contactDetails').hide(600);
+    $('#skillsContent').hide(600);
     $('#proj1').hide(600);
     $('#proj2').hide(600);
     $('#proj3').hide(600);
     $('#proj4').hide(600);
     $('#aboutMeContent').toggle(1000);
+  });
+
+  $('#skillsContent').hide();
+  $('#skills').on('click', function(){
+    $('#aboutMeContent').hide(600);
+    $('#contactDetails').hide(600);
+    $('#proj1').hide(600);
+    $('#proj2').hide(600);
+    $('#proj3').hide(600);
+    $('#proj4').hide(600);
+    $('#skillsContent').toggle(1000);
   });
 
 
@@ -27,6 +40,7 @@ $(document).ready(function(){
   $('#ttt').on('click', function(){
     $('#aboutMeContent').hide(600);
     $('#contactDetails').hide(600);
+    $('#skillsContent').hide(600);
     $('#proj2').hide(600);
     $('#proj3').hide(600);
     $('#proj4').hide(600);
@@ -38,6 +52,7 @@ $(document).ready(function(){
   $('#conflicts').on('click', function(){
     $('#aboutMeContent').hide(600);
     $('#contactDetails').hide(600);
+    $('#skillsContent').hide(600);
     $('#proj1').hide(600);
     $('#proj3').hide(600);
     $('#proj4').hide(600);
@@ -48,6 +63,7 @@ $(document).ready(function(){
   $('#trippo').on('click', function(){
     $('#aboutMeContent').hide(600);
     $('#contactDetails').hide(600);
+    $('#skillsContent').hide(600);
     $('#proj1').hide(600);
     $('#proj2').hide(600);
     $('#proj4').hide(600);
@@ -58,6 +74,7 @@ $(document).ready(function(){
   $('#booker').on('click', function(){
     $('#aboutMeContent').hide(600);
     $('#contactDetails').hide(600);
+    $('#skillsContent').hide(600);
     $('#proj1').hide(600);
     $('#proj2').hide(600);
     $('#proj3').hide(600);
