@@ -33,6 +33,8 @@ button{
   border-radius: 20%;
 }
 
+button:focus {outline:0;}
+
 #resumeButton{
   margin: 0;
   text-decoration: none;
