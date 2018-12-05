@@ -43,15 +43,15 @@ button{
 #name{
   font-family: 'Assistant', sans-serif;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 2vh;
 }
 
 h1{
-  font-size: 90px;
+  font-size: 8vh;
 }
 
 h2{
-  font-size: 45px;
+  font-size: 4vh;
 }
 
 /* nav */
@@ -64,7 +64,7 @@ li{
   display: inline-block;
 }
 
-nav:hover{
+button:hover{
   cursor: pointer;
 }
 
