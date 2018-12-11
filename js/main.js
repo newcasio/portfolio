@@ -68,12 +68,12 @@ $(document).ready(function(){
 
   $('#proj3').hide();
   $('#trippo').on('click', function(){
-    $('#aboutMeContent').faddeOut(200);
-    $('#contactDetails').faddeOut(200);
-    $('#skillsContent').faddeOut(200);
-    $('#proj1').faddeOut(200);
-    $('#proj2').faddeOut(200);
-    $('#proj4').faddeOut(200);
+    $('#aboutMeContent').hide(200);
+    $('#contactDetails').hide(200);
+    $('#skillsContent').hide(200);
+    $('#proj1').hide(200);
+    $('#proj2').hide(200);
+    $('#proj4').hide(200);
     $('#proj3').fadeToggle(1800);
     $('.bg-img').fadeTo('slow', '0.3');
   })
